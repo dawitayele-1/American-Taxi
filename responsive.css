@@ -1,0 +1,155 @@
+/* ---------- TABLET (max-width: 768px) ---------- */
+@media screen and (max-width: 768px) {
+
+    .aboveheader,
+    .main0,
+    .info,
+    .info2,
+    .estcont,
+    .test1,
+    .test2,
+    .test3,
+    .cardinfo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .maintext {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .mainh1 {
+        font-size: 3.5rem;
+    }
+
+    .maintextpara {
+        font-size: 1.8rem;
+    }
+
+    .logopic {
+        width: 20rem;
+    }
+
+    .infoimg,
+    .info2 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .estlogo,
+    .estform {
+        width: 90%;
+    }
+
+    .cardinfo {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .nav {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .sercont {
+        width: 90%;
+    }
+
+    .submit1 {
+        width: 60%;
+    }
+}
+
+
+/* ---------- MOBILE (max-width: 480px) ---------- */
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 45%;
+    }
+
+    .mainh1 {
+        font-size: 2.8rem;
+    }
+
+    .maintextpara,
+    .infohead2,
+    .infopara1 p,
+    .para2,
+    .info2 div p {
+        font-size: 1.6rem;
+    }
+
+    .gallerybtn {
+        font-size: 1.6rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .testimonials .test1,
+    .test2,
+    .test3 {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .test1 img,
+    .test2 img,
+    .test3 img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .nav a {
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+    }
+
+    .estlogopara2 {
+        font-size: 2rem;
+    }
+
+    .esth2,
+    .infoheader,
+    .ser {
+        font-size: 2.4rem;
+    }
+
+    .logo2 div p {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* ---------- LANDSCAPE PHONES (max-height: 480px) ---------- */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+    html {
+        font-size: 50%;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .mainimg1 {
+        width: 100%;
+    }
+
+    .maintext {
+        padding: 0;
+        align-items: center;
+    }
+
+    .mainh1 {
+        font-size: 2.5rem;
+    }
+
+    .maintextpara {
+        font-size: 1.5rem;
+    }
+}
