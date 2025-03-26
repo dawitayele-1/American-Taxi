@@ -10,5 +10,14 @@
 
     }
 
+    .contactustext,
+    .areatext,
+    .aboutus1,
+    .FAQ,
+    .ser1,
+    .testp {
+        width: 90%;
+    }
+
 
 }
