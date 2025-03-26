@@ -254,7 +254,11 @@
 
         .info {
             flex-direction: column;
-            margin-bottom: 25rem;
+            margin-bottom: 20rem;
+        }
+
+        .infoimg {
+            width: 80%;
         }
 
         .infopara1 {
@@ -264,7 +268,11 @@
 
         .info2 {
             flex-direction: column;
-            margin-bottom: 40rem;
+            margin-bottom: 20rem;
+        }
+
+        .info2 img {
+            width: 80%;
         }
 
         .info2 div {
