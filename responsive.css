@@ -188,6 +188,189 @@
 }
 
 
+@media screen and (min-width:421px) and (max-width:549px) {
+
+
+    @media screen and (max-width: 650px) {
+        html {
+            font-size: 45%;
+        }
+
+
+        .main {
+            margin: 4rem auto;
+            margin-bottom: 20rem;
+            align-items: center;
+        }
+
+        .main0 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 5rem;
+        }
+
+        .maintext {
+            padding: 0;
+            row-gap: 5rem;
+            margin-bottom: 10rem;
+        }
+
+        .mainh1 {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .maintext .mainbtn {
+            margin: 0 auto;
+        }
+
+        .mainimg1 {
+            height: 40rem;
+            width: auto;
+        }
+
+        .details0 {
+            margin-bottom: 10rem;
+            color: white;
+            background-color: var(--second-color);
+        }
+
+        .details {
+            color: rgb(255, 255, 255);
+            padding: 2rem;
+        }
+
+        .info {
+            flex-direction: column;
+            margin-bottom: 30rem;
+        }
+
+        .infopara1 {
+            flex-direction: column;
+            padding: 5rem 5rem;
+        }
+
+        .info2 {
+            flex-direction: column;
+            margin-bottom: 40rem;
+        }
+
+        .info2 div {
+            flex-direction: column;
+            padding: 3rem 10rem;
+        }
+
+        .gallerybtn {
+            margin: 10rem auto;
+        }
+
+
+
+        .callcont {
+            margin-bottom: 10rem;
+            color: white;
+            background-color: var(--second-color);
+        }
+
+        .call {
+            color: rgb(255, 255, 255);
+            padding: 1rem;
+        }
+
+
+
+        .estcont {
+            flex-direction: column;
+            margin: 10rem auto;
+            align-items: center;
+            ;
+
+        }
+
+        .estlogo {
+            width: 80%;
+            padding: 1rem auto;
+            margin-bottom: 5rem;
+            padding: 20px
+        }
+
+        .estform {
+            width: 80%;
+            padding: 1rem auto;
+            margin-bottom: 5rem;
+
+        }
+
+
+
+        .test0 {
+            margin-top: 70rem;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .testimonials {
+            row-gap: 5rem;
+            height: auto;
+        }
+
+        .testimonials div {
+            width: 90%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-size: 1.5rem;
+            padding: 15px 5px;
+            height: auto;
+        }
+
+
+        .servies {
+            width: 100%;
+            height: auto;
+        }
+
+        .servies .sercont {
+            flex-wrap: wrap;
+            justify-items: center;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+
+
+
+
+        .cardinfo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            row-gap: 10rem;
+            width: 50%;
+            margin-bottom: 3rem;
+        }
+
+        .cardinfo .workhrs {
+            display: flex;
+            flex-direction: column;
+            column-gap: 0;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .pay .paymethed {
+            flex-wrap: wrap;
+        }
+
+
+    }
+
+}
 
 
 
@@ -231,7 +414,16 @@
 
 
 
-@media screen and (min-width:420) and (max-width: 650px) {
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:550px) and (max-width: 650px) {
     html {
         font-size: 45%;
     }
