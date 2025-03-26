@@ -1,155 +1,880 @@
-/* ---------- TABLET (max-width: 768px) ---------- */
-@media screen and (max-width: 768px) {
-
-    .aboveheader,
-    .main0,
-    .info,
-    .info2,
-    .estcont,
-    .test1,
-    .test2,
-    .test3,
-    .cardinfo {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 2rem;
-    }
-
-    .maintext {
-        padding: 0 2rem;
-        text-align: center;
-    }
-
-    .mainh1 {
-        font-size: 3.5rem;
-    }
-
-    .maintextpara {
-        font-size: 1.8rem;
-    }
-
-    .logopic {
-        width: 20rem;
-    }
-
-    .infoimg,
-    .info2 img {
-        width: 90%;
-        height: auto;
-    }
-
-    .estlogo,
-    .estform {
-        width: 90%;
-    }
-
-    .cardinfo {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .nav {
-        flex-direction: column;
-        padding: 1.5rem;
-    }
-
-    .sercont {
-        width: 90%;
-    }
-
-    .submit1 {
-        width: 60%;
-    }
+:root {
+    --main-color: #a00202;
+    --second-color: #333;
 }
 
 
-/* ---------- MOBILE (max-width: 480px) ---------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
     html {
         font-size: 45%;
     }
 
-    .mainh1 {
-        font-size: 2.8rem;
-    }
-
-    .maintextpara,
-    .infohead2,
-    .infopara1 p,
-    .para2,
-    .info2 div p {
-        font-size: 1.6rem;
-    }
-
-    .gallerybtn {
-        font-size: 1.6rem;
-        padding: 0.8rem 1.5rem;
-    }
-
-    .testimonials .test1,
-    .test2,
-    .test3 {
-        flex-direction: column;
-        height: auto;
-        padding: 2rem;
-    }
-
-    .test1 img,
-    .test2 img,
-    .test3 img {
-        height: 80px;
-        width: 80px;
-    }
-
-    .nav a {
-        font-size: 1.4rem;
-        margin: 0.5rem 0;
-    }
-
-    .estlogopara2 {
-        font-size: 2rem;
-    }
-
-    .esth2,
-    .infoheader,
-    .ser {
-        font-size: 2.4rem;
-    }
-
-    .logo2 div p {
-        font-size: 1.4rem;
-    }
-}
-
-
-/* ---------- LANDSCAPE PHONES (max-height: 480px) ---------- */
-@media screen and (max-height: 480px) and (orientation: landscape) {
-    html {
-        font-size: 50%;
-    }
 
     .main {
-        flex-direction: column;
-        height: auto;
-        padding: 2rem 1rem;
+        margin: 5rem auto;
+        margin-bottom: 30rem;
     }
 
-    .mainimg1 {
+    .main0 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
         width: 100%;
+        padding: 0 5rem;
     }
 
     .maintext {
         padding: 0;
-        align-items: center;
+        row-gap: 5rem;
+        margin-bottom: 10rem;
     }
 
     .mainh1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .maintext .mainbtn {
+        margin: 0 auto;
+    }
+
+    .mainimg1 {
+        height: 40rem;
+        width: auto;
+    }
+
+    .details0 {
+        margin-bottom: 10rem;
+        color: white;
+        background-color: var(--second-color);
+    }
+
+    .details {
+        color: rgb(255, 255, 255);
+        padding: 2rem;
+    }
+
+    .info {
+        flex-direction: column;
+        margin-bottom: 30rem;
+    }
+
+    .infopara1 {
+        flex-direction: column;
+        padding: 10rem 10rem;
+    }
+
+    .info2 {
+        flex-direction: column;
+        margin-bottom: 30rem;
+    }
+
+    .info2 div {
+        flex-direction: column;
+        padding: 3rem 10rem;
+    }
+
+    .gallerybtn {
+        margin: 10rem auto;
+    }
+
+
+
+
+
+
+
+
+    .callcont {
+        margin-bottom: 10rem;
+        color: white;
+        background-color: var(--second-color);
+    }
+
+    .call {
+        color: rgb(255, 255, 255);
+        padding: 1rem;
+    }
+
+
+
+    .estcont {
+        flex-direction: column;
+        margin: 10rem auto;
+        align-items: center;
+        ;
+
+    }
+
+    .estlogo {
+        width: 80%;
+        padding: 1rem auto;
+        margin-bottom: 5rem;
+        padding: 20px
+    }
+
+    .estform {
+        width: 80%;
+        padding: 1rem auto;
+        margin-bottom: 5rem;
+
+    }
+
+
+
+    .test0 {
+        margin-top: 70rem;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonials {
+        row-gap: 2rem;
+        height: auto;
+    }
+
+    .testimonials div {
+        width: 90%;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        padding: 0 5px;
+    }
+
+
+    .servies {
+        width: 100%;
+    }
+
+    .servies .sercont {
+        flex-wrap: wrap;
+        justify-items: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+
+
+
+    .cardinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 10rem;
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+    .cardinfo .workhrs {
+        display: flex;
+        flex-direction: column;
+        column-gap: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .pay .paymethed {
+        flex-wrap: wrap;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .aboveheader {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .logopic {
+        display: flex;
+        justify-items: flex-start;
+        margin: 0 auto 10rem 0;
+
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+        /* Hide by default */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 60px 0;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav a {
+        padding-bottom: 10px;
+    }
+
+    /* 🏆 Show menu when active */
+    .nav.active {
+        display: flex;
+    }
+
+    /* 🏆 Burger Menu Icon */
+    .burger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+
+    .mouse-scroll {
+        display: none;
+    }
+}
+
+
+/* 🏆 Keep menu visible in desktop view */
+@media screen and (min-width: 650px) {
+    .burger {
+        display: none;
+        /* Hide burger on larger screens */
+    }
+
+    .nav {
+        display: flex;
+    }
+}
+
+
+
+
+@media screen and (min-width:651px) and (max-width:899px) {
+
+    body {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        margin-bottom: 10rem;
+    }
+
+    .header .nav {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .main {
+        height: auto;
+        margin-bottom: 10rem;
+    }
+
+    .main .main0 {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .maintext h1 {
+        font-size: 4rem;
+        width: max-content;
     }
 
     .maintextpara {
         font-size: 1.5rem;
     }
+
+    .mainimg1 {
+        height: 30rem;
+        width: auto;
+    }
+
+    .details0 {
+        margin-bottom: 10rem;
+    }
+
+    .info {
+        margin: 0rem auto;
+        display: flex;
+        height: auto;
+    }
+
+    .info .infopara1 h1 {
+        font-size: 2rem;
+    }
+
+    .info .infopara1 p {
+        font-size: 1.6rem;
+    }
+
+    .info img {
+        width: 45rem;
+        height: auto;
+    }
+
+    .info2 {
+        margin: 10rem auto;
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+
+
+    .info2 div p {
+        font-size: 1.6rem;
+    }
+
+    .info2 img {
+        width: 45rem;
+        height: auto;
+    }
+
+    .gallerybtn {
+        margin: 0 auto 10rem auto;
+    }
+
+
+    .callcont {
+        margin-bottom: 10rem;
+    }
+
+    .estcont {
+        height: max-content;
+        display: flex;
+        max-width: 1024px;
+        width: 100%;
+        justify-content: space-around;
+        /* background-color: aqua; */
+        gap: 0;
+        padding: 2rem 0;
+    }
+
+    .estlogo {
+        width: 45%;
+    }
+
+    .estlogo .esthead {
+        font-size: 2.5rem;
+    }
+
+    .estform {
+        width: 45%;
+    }
+
+    .estform .esth2 {
+        font-size: 2.5rem;
+    }
+
+    .estform label {
+        font-size: 1.4rem;
+    }
+
+    .test0 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .testimonials {
+        gap: 1rem;
+        margin-bottom: 3rem;
+        height: auto;
+    }
+
+    .testimonials div {
+        padding: 0 1rem;
+    }
+
+
+    .servies {
+        margin-bottom: 15rem;
+        width: 100%;
+
+    }
+
+    .servies .ser {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+        font-weight: bold;
+        background-color: #000000;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sercont {
+
+        margin: 0 auto 0 auto;
+        flex-wrap: wrap;
+        width: 500px;
+        width: 100%;
+        justify-content: start;
+
+    }
+
+    .cardinfo .workhrs div p {
+        font-size: 1.5rem;
+        width: max-content;
+
+    }
+
+    .cardinfo .workhrs div {
+        display: flex;
+        column-gap: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:900px) and (max-width:1023px) {
+
+
+    body {
+        max-width: 900px;
+    }
+
+    .header {
+        margin-bottom: 8rem;
+    }
+
+    .maintext h1 {
+        font-size: 3rem;
+    }
+
+    .maintextpara {
+        font-size: 1.5rem;
+    }
+
+    .mainimg1 {
+        height: 250px;
+        width: auto;
+    }
+
+    .details0 {
+        margin-bottom: 10rem;
+    }
+
+    .info {
+        margin: 20rem auto;
+        display: flex;
+    }
+
+    .info .infopara1 h1 {
+        font-size: 2rem;
+    }
+
+    .info .infopara1 p {
+        font-size: 1.6rem;
+    }
+
+    .info img {
+        width: 450px;
+        height: auto;
+    }
+
+    .info2 {
+        margin: 20rem auto;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .info2 div p {
+        font-size: 1.6rem;
+    }
+
+    .info2 img {
+        width: 450px;
+        height: auto;
+    }
+
+    .gallerybtn {
+        margin: 20rem auto 10rem auto;
+    }
+
+
+    .callcont {
+        margin-bottom: 10rem;
+    }
+
+    .estcont {
+        height: max-content;
+        display: flex;
+        max-width: 1024px;
+        width: 100%;
+        justify-content: space-around;
+        /* background-color: aqua; */
+        gap: 0;
+        padding: 2rem 0;
+    }
+
+    .estlogo {
+        width: 45%;
+    }
+
+    .estlogo .esthead {
+        font-size: 2.5rem;
+    }
+
+    .estform {
+        width: 45%;
+    }
+
+    .estform .esth2 {
+        font-size: 2.5rem;
+    }
+
+    .estform label {
+        font-size: 1.4rem;
+    }
+
+    .test0 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .testimonials {
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .servies {
+        margin-bottom: 15rem;
+        width: 900px;
+
+    }
+
+    .servies .ser {
+        margin-bottom: 2rem;
+    }
+
+    .sercont {
+        width: 700px;
+        margin: 10px auto 0 auto;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+
+
+    body {
+        max-width: 1000px;
+    }
+
+    .header {
+        margin-bottom: 4rem;
+    }
+
+    .maintext h1 {
+        font-size: 4rem;
+    }
+
+    .maintextpara {
+        font-size: 1.5rem;
+    }
+
+    .mainimg1 {
+        height: 250px;
+        width: auto;
+    }
+
+    .details0 {
+        margin-bottom: 2rem;
+    }
+
+    .info {
+        margin: 5rem auto;
+        display: flex;
+    }
+
+    .info .infopara1 h1 {
+        font-size: 2rem;
+    }
+
+    .info .infopara1 p {
+        font-size: 1.6rem;
+    }
+
+    .info img {
+        width: 450px;
+        height: auto;
+    }
+
+    .info2 {
+        margin: 5rem auto;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .info2 div p {
+        font-size: 1.6rem;
+    }
+
+    .info2 img {
+        width: 450px;
+        height: auto;
+    }
+
+    .gallerybtn {
+        margin: 10rem auto 10rem auto;
+    }
+
+
+    .callcont {
+        margin-bottom: 10rem;
+    }
+
+    .estcont {
+        height: max-content;
+        display: flex;
+        max-width: 1024px;
+        width: 100%;
+        justify-content: space-around;
+        /* background-color: aqua; */
+        gap: 0;
+        padding: 2rem 0;
+    }
+
+    .estlogo {
+        width: 45%;
+    }
+
+    .estlogo .esthead {
+        font-size: 2.5rem;
+    }
+
+    .estform {
+        width: 45%;
+    }
+
+    .estform .esth2 {
+        font-size: 2.5rem;
+    }
+
+    .estform label {
+        font-size: 1.4rem;
+    }
+
+    .test0 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .testimonials {
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .testimonials div {
+        padding: 0 2rem;
+    }
+
+    .servies {
+        margin-bottom: 15rem;
+        width: 900px;
+
+    }
+
+    .servies .ser {
+        margin-bottom: 2rem;
+    }
+
+    .sercont {
+        width: 700px;
+        margin: 10px auto 0 auto;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:1279px) and (max-width:1366px) {
+
+
+    body {
+        max-width: 1300px;
+    }
+
+    .header {
+        margin-bottom: 4rem;
+    }
+
+    .maintext h1 {
+        font-size: 5rem;
+    }
+
+    .maintextpara {
+        font-size: 1.5rem;
+    }
+
+    .mainimg1 {
+        height: 400px;
+        width: auto;
+    }
+
+    .details0 {
+        margin-bottom: 2rem;
+    }
+
+    .info {
+        margin: 5rem auto;
+        display: flex;
+    }
+
+    .info .infopara1 h1 {
+        font-size: 2rem;
+    }
+
+    .info .infopara1 p {
+        font-size: 1.6rem;
+    }
+
+    .info img {
+        width: 450px;
+        height: auto;
+    }
+
+    .info2 {
+        margin: 5rem auto;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .info2 div p {
+        font-size: 1.6rem;
+    }
+
+    .info2 img {
+        width: 450px;
+        height: auto;
+    }
+
+    .gallerybtn {
+        margin: 5rem auto 10rem auto;
+    }
+
+
+    .callcont {
+        margin-bottom: 10rem;
+    }
+
+    .estcont {
+        height: max-content;
+        display: flex;
+        max-width: 1024px;
+        width: 100%;
+        justify-content: space-around;
+        /* background-color: aqua; */
+        gap: 0;
+        padding: 2rem 0;
+    }
+
+    .estlogo {
+        width: 45%;
+    }
+
+    .estlogo .esthead {
+        font-size: 2.5rem;
+    }
+
+    .estform {
+        width: 45%;
+    }
+
+    .estform .esth2 {
+        font-size: 2.5rem;
+    }
+
+    .estform label {
+        font-size: 1.4rem;
+    }
+
+    .test0 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .testimonials {
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .testimonials div {
+        padding: 0 3rem;
+    }
+
+    .servies {
+        margin-bottom: 15rem;
+        width: 900px;
+
+    }
+
+    .servies .ser {
+        margin-bottom: 2rem;
+    }
+
+    .sercont {
+        width: 700px;
+        margin: 10px auto 0 auto;
+    }
+
+
 }

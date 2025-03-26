@@ -10,6 +10,10 @@ html {
     line-height: 1.6;
     box-sizing: border-box;
     background-color: #f9f2e8;
+    overflow-x: hidden;
+    /* Disable horizontal scrolling */
+
+
 }
 
 /* @media screen and (max-width:1024px) {
@@ -20,7 +24,7 @@ html {
 
 } */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     html {
         font-size: 50%;
 
@@ -37,6 +41,10 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scrolling */
+
+
 }
 
 .header {
@@ -47,8 +55,9 @@ body {
     align-content: center;
     /* background-color: rgb(199, 199, 199); */
     margin: 0 auto;
-
 }
+
+
 
 
 .aboveheader {
@@ -143,7 +152,6 @@ body {
     border: 2px #ffffff;
     background-color: #e3e3e3;
     padding: 25px 2px;
-
 
 }
 
@@ -303,7 +311,7 @@ body {
     height: 60vh;
     background-color: transparent;
     align-items: center;
-    column-gap: 100px;
+    column-gap: 50px;
     line-height: 1.4;
     color: rgb(0, 0, 0);
     margin: auto;
@@ -350,7 +358,7 @@ body {
     height: 60vh;
     background-color: transparent;
     align-items: center;
-    column-gap: 100px;
+    column-gap: 50px;
     line-height: 1.4;
     color: rgb(0, 0, 0);
     margin: auto;
@@ -446,7 +454,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 45%;
     align-items: center;
     row-gap: 20px;
     border-radius: 5px;
@@ -468,8 +476,9 @@ body {
 }
 
 .estlogo .esticon {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 0;
 
 }
 
@@ -520,7 +529,7 @@ body {
     flex-direction: column;
     border-radius: 5px;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     justify-content: center;
     align-items: center;
 }
@@ -641,10 +650,10 @@ label {
 }
 
 
-.test1 img {
+.testimonials img {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 10rem;
+    width: 10rem;
     object-fit: cover;
 }
 
@@ -671,12 +680,6 @@ label {
 }
 
 
-.test2 img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
-}
 
 .testimonials .test2 .test2a {
     display: flex;
@@ -700,13 +703,6 @@ label {
     height: 15rem;
 }
 
-
-.test3 img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
-}
 
 .testimonials .test3 .test3a {
     display: flex;
@@ -763,11 +759,11 @@ label {
     text-decoration: none;
 }
 
-.ser {
+.servies .ser {
     font-size: 4rem;
     font-weight: bold;
-    justify-self: center;
-    align-self: center;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -890,6 +886,12 @@ label {
     justify-content: space-between;
 }
 
+.pay .paymethed img {
+    width: 7rem;
+    height: auto;
+    padding: 10px;
+}
+
 
 
 .snet {
@@ -900,8 +902,8 @@ label {
 }
 
 .snet div a img {
-    width: 30px;
-    height: 30px;
+    width: 5rem;
+    height: 5rem;
     padding-left: 10px;
 }
 
